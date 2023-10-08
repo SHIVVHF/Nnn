@@ -30,7 +30,7 @@ bot = Client("bot",
 
 @bot.on_message(filters.command(["start"])& ~filters.edited)
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text(f"Hello Dost kya hua ! press /shiv")
+    editable = await m.reply_text(f"contect @Gujarati_hackerbot")
 
 
 @bot.on_message(filters.command("stop")& ~filters.edited)
